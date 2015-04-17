@@ -7,5 +7,13 @@
     "test": "gulp test"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp-debug": "^2.0.1",
+    "gulp-inject": "^1.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tslint": "^2.0.0",
+    "gulp-typescript": "^2.6.0"
+  }
 }
