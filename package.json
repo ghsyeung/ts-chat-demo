@@ -1,0 +1,11 @@
+{
+  "name": "conversation_lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "",
+  "license": "ISC"
+}
