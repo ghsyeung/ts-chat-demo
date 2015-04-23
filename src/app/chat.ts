@@ -1,3 +1,4 @@
+/// <reference path="./stat.ts"/>
 /// <reference path="../../tools/typings/firebase/firebase.d.ts"/>
 module Chat {
     class ChatMessage {
@@ -13,6 +14,8 @@ module Chat {
             this.firebase = new Firebase(ChatEngine.baseUrl);
         }
 
+
+        @Stat.ProfileInstance
         send(message:string) {
             this.firebase.push(new ChatMessage(this.name, message));
         }
