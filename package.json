@@ -17,6 +17,7 @@
     "gulp-sourcemaps": "^1.5.2",
     "gulp-tslint": "^2.0.0",
     "gulp-typescript": "^2.6.0",
+    "typescript": "1.5.0-alpha",
     "require-dir": "^0.3.0",
     "vinyl": "^0.4.6"
   }
